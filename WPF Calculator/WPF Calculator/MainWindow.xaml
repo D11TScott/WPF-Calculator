@@ -23,16 +23,16 @@
         </Grid.RowDefinitions>
 
         <!-- Number Buttons below... -->
-        <Button x:Name="btn7" Grid.Row="2" Grid.Column="0">7</Button>
-        <Button x:Name="btn8" Grid.Row="2" Grid.Column="1">8</Button>
-        <Button x:Name="btn9" Grid.Row="2" Grid.Column="2">9</Button>
-        <Button x:Name="btn4" Grid.Row="3" Grid.Column="0">4</Button>
-        <Button x:Name="btn5" Grid.Row="3" Grid.Column="1">5</Button>
-        <Button x:Name="btn6" Grid.Row="3" Grid.Column="2">6</Button>
-        <Button x:Name="btn1" Grid.Row="4" Grid.Column="0">1</Button>
-        <Button x:Name="btn2" Grid.Row="4" Grid.Column="1">2</Button>
-        <Button x:Name="btn3" Grid.Row="4" Grid.Column="2">3</Button>
-        <Button x:Name="btn0" Grid.Row="5" Grid.Column="1">0</Button>
+        <Button x:Name="btn7" Grid.Row="2" Grid.Column="0" Click="onNumberButtonClick">7</Button>
+        <Button x:Name="btn8" Grid.Row="2" Grid.Column="1" Click="onNumberButtonClick">8</Button>
+        <Button x:Name="btn9" Grid.Row="2" Grid.Column="2" Click="onNumberButtonClick">9</Button>
+        <Button x:Name="btn4" Grid.Row="3" Grid.Column="0" Click="onNumberButtonClick">4</Button>
+        <Button x:Name="btn5" Grid.Row="3" Grid.Column="1" Click="onNumberButtonClick">5</Button>
+        <Button x:Name="btn6" Grid.Row="3" Grid.Column="2" Click="onNumberButtonClick">6</Button>
+        <Button x:Name="btn1" Grid.Row="4" Grid.Column="0" Click="onNumberButtonClick">1</Button>
+        <Button x:Name="btn2" Grid.Row="4" Grid.Column="1" Click="onNumberButtonClick">2</Button>
+        <Button x:Name="btn3" Grid.Row="4" Grid.Column="2" Click="onNumberButtonClick">3</Button>
+        <Button x:Name="btn0" Grid.Row="5" Grid.Column="1" Click="onNumberButtonClick">0</Button>
                
         <!-- Maths Buttons below... -->
         <Button x:Name="btnAdd" Grid.Row="4" Grid.Column="3">+</Button>
