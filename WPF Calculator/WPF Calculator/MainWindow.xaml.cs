@@ -23,6 +23,6 @@ namespace WPF_Calculator
         public MainWindow()
         {
             InitializeComponent();
-        }
+        }        
     }
 }

@@ -5,8 +5,53 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="WPF Calculator!" Height="800" Width="400">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <!-- Number Buttons below... -->
+        <Button x:Name="btn7" Grid.Row="2" Grid.Column="0">7</Button>
+        <Button x:Name="btn8" Grid.Row="2" Grid.Column="1">8</Button>
+        <Button x:Name="btn9" Grid.Row="2" Grid.Column="2">9</Button>
+        <Button x:Name="btn4" Grid.Row="3" Grid.Column="0">4</Button>
+        <Button x:Name="btn5" Grid.Row="3" Grid.Column="1">5</Button>
+        <Button x:Name="btn6" Grid.Row="3" Grid.Column="2">6</Button>
+        <Button x:Name="btn1" Grid.Row="4" Grid.Column="0">1</Button>
+        <Button x:Name="btn2" Grid.Row="4" Grid.Column="1">2</Button>
+        <Button x:Name="btn3" Grid.Row="4" Grid.Column="2">3</Button>
+        <Button x:Name="btn0" Grid.Row="5" Grid.Column="1">0</Button>
+               
+        <!-- Maths Buttons below... -->
+        <Button x:Name="btnAdd" Grid.Row="4" Grid.Column="3">+</Button>
+        <Button x:Name="btnSub" Grid.Row="3" Grid.Column="3">-</Button>
+        <Button x:Name="btnDiv" Grid.Row="2" Grid.Column="3">/</Button>
+        <Button x:Name="btnMul" Grid.Row="1" Grid.Column="3">*</Button>
+               
+        <!-- Function Buttons below... -->
+        <Button x:Name="btnPrime" Grid.Row="5" Grid.Column="0">Is Prime?</Button>
+        <Button x:Name="btnEquals" Grid.Row="5" Grid.Column="3">=</Button>
+        <Button x:Name="btnReset" Grid.Row="1" Grid.Column="0">Reset</Button>
+        <Button x:Name="btnClear" Grid.Row="1" Grid.Column="1">Clear</Button>
+        <Button x:Name="btnCopy" Grid.Row="1" Grid.Column="2">Copy</Button>
+
+        <TextBox x:Name="textDisplay" IsReadOnly="True" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" HorizontalAlignment="Left" VerticalAlignment="Bottom" Text="0" TextAlignment="Right" TextWrapping="Wrap" FontSize="30" BorderThickness="0"/>
+
+
+        <!-- Text box -->
+
 
     </Grid>
 </Window>
