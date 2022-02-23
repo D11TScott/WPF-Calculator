@@ -35,10 +35,10 @@
         <Button x:Name="btn0" Grid.Row="5" Grid.Column="1" Click="onNumberButtonClick">0</Button>
                
         <!-- Maths Buttons below... -->
-        <Button x:Name="btnAdd" Grid.Row="4" Grid.Column="3">+</Button>
-        <Button x:Name="btnSub" Grid.Row="3" Grid.Column="3">-</Button>
-        <Button x:Name="btnDiv" Grid.Row="2" Grid.Column="3">/</Button>
-        <Button x:Name="btnMul" Grid.Row="1" Grid.Column="3">*</Button>
+        <Button x:Name="btnAdd" Grid.Row="4" Grid.Column="3" Click="btnAdd_Click">+</Button>
+        <Button x:Name="btnSub" Grid.Row="3" Grid.Column="3" Click="btnSub_Click">-</Button>
+        <Button x:Name="btnDiv" Grid.Row="2" Grid.Column="3" Click="btnDiv_Click">/</Button>
+        <Button x:Name="btnMul" Grid.Row="1" Grid.Column="3" Click="btnMul_Click">*</Button>
                
         <!-- Function Buttons below... -->
         <Button x:Name="btnPrime" Grid.Row="5" Grid.Column="0">Is Prime?</Button>
