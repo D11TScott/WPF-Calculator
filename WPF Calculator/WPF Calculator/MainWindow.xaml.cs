@@ -133,5 +133,27 @@ namespace WPF_Calculator
             textDisplay.Text += " + ";
 
         }
+
+        private void btnEquals_Click(object sender, RoutedEventArgs e)
+        {
+            PerformCalculation(m_previousOperation);
+            m_previousOperation = eOperation.e_None;
+        }
+
+        private void btnReset_Click(object sender, RoutedEventArgs e)
+        {
+            textDisplay.Text = "";
+            m_previousOperation = eOperation.e_None;
+
+        }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            m_previousOperation = eOperation.e_None;
+            if (textDisplay.Text.Length > 0)
+            {
+                textDisplay.Text = textDisplay.Text.Remove(textDisplay.Text.Length - 1, 1);
+            }
+        }
     }
 }

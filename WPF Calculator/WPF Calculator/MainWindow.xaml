@@ -42,9 +42,9 @@
                
         <!-- Function Buttons below... -->
         <Button x:Name="btnPrime" Grid.Row="5" Grid.Column="0">Is Prime?</Button>
-        <Button x:Name="btnEquals" Grid.Row="5" Grid.Column="3">=</Button>
-        <Button x:Name="btnReset" Grid.Row="1" Grid.Column="0">Reset</Button>
-        <Button x:Name="btnClear" Grid.Row="1" Grid.Column="1">Clear</Button>
+        <Button x:Name="btnEquals" Grid.Row="5" Grid.Column="3" Click="btnEquals_Click">=</Button>
+        <Button x:Name="btnReset" Grid.Row="1" Grid.Column="0" Click="btnReset_Click">Reset</Button>
+        <Button x:Name="btnClear" Grid.Row="1" Grid.Column="1" Click="btnClear_Click">Clear</Button>
         <Button x:Name="btnCopy" Grid.Row="1" Grid.Column="2">Copy</Button>
 
         <TextBox x:Name="textDisplay" IsReadOnly="True" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" HorizontalAlignment="Left" VerticalAlignment="Bottom" Text="0" TextAlignment="Right" TextWrapping="Wrap" FontSize="30" BorderThickness="0"/>
